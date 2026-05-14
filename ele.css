@@ -1,0 +1,205 @@
+*{
+  margin: 0%;  
+  padding: 0%;
+}
+body{
+    padding-top: 10vh;
+}
+header{
+    background-color: aqua;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header>button{
+    height: 50%;
+    width: 10%;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+header>button>a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    background-color: palegreen;
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    /* gap: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10vh;
+
+}
+main>h1{
+    height: 10%;
+    width: 100%;
+    font-size: 45px;
+    display: flex;
+    text-align: center;
+}
+main>h3{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+main>aside{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+main>aside>ul{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+main>aside>ul>img{
+    height: 80%;
+    width:100%;
+    border-radius: 25px;
+}
+main>aside>ul>h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+main>aside>ul>button{
+    height: 10%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+section{
+    background-color: palegreen;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section>h1{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+section>aside{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+section>aside>ul{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+section>aside>ul>img{
+    height: 80%;
+    width:100%;
+    border-radius: 25px;
+}
+section>aside>ul>h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+section>aside>ul>button{
+    height: 10%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+@media (max-width:768px) {
+   
+    header>h1{
+        font-size: 20px;
+    }
+    header>button{
+    height: 50%;
+    width: 20%;
+    }
+    main,section {
+        /* background-color:blue; */
+        width: 100%;
+        height: 100%; 
+        gap: 20px; 
+    }
+    main>h1{
+        font-size: 30px;
+    }
+    main>h3{
+        font-size: 20px;
+    }
+    main>aside{
+         width: 100%;
+         height: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    main>aside>ul{
+        width: 60%;
+        height: 50%
+    }
+    main>aside>ul>h3{
+        font-size: 20px;
+    }
+    main>aside>ul>button{
+    height: 25%;
+    width: 30%;
+    font-size: 10px;
+    }
+    
+    section>h1{
+        font-size: 25px;
+    }
+    section>aside{
+         flex-direction: column;
+         width: 100%;
+         height: 100%;
+         gap: 30px;
+    }
+    section>aside>ul{
+        width: 60%;
+        height: 50%;
+    }
+    section>aside>ul>h3{
+        font-size: 20px;
+    }
+    section>aside>ul>button{
+        height: 25%;
+        width: 30%;
+        font-size: 10px;
+    }
+}

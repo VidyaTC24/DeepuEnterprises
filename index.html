@@ -1,0 +1,266 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepu Enterprises</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="https://deepuenterprises.com/deepulogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="https://deepuenterprises.com/deepulogo.png" alt="">
+                <h1> DEEPU </h1>
+                <p>Enterprises 
+                    <br>and
+                    <br>distributers
+                </p>
+            </div>
+            <ul id="navlinksDesk">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#quote">Quote</a></li>
+            </ul>
+            <ul id="navlinksMob">
+                <h1 id="close" onclick="closelink()">X</h1>
+                <li><a onclick="closelink()" href="#home">Home</a></li>
+                <li><a onclick="closelink()" href="#about">About</a></li>
+                <li><a onclick="closelink()" href="#products">Products</a></li>
+                <li><a onclick="closelink()" href="#partners">Partners</a></li>
+                <li><a onclick="closelink()" href="#testimonials">Testimonials</a></li>
+                <li><a onclick="closelink()" href="#contact">Contact</a></li>
+                <li><a onclick="closelink()" href="#quote">Quote</a></li>
+            </ul>
+            <div id="burger" onclick="displayMenu()">
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+            </div>
+        </nav>
+        <script>
+            burger= document.getElementById("burger");
+            navlinks= document.getElementById("navlinksMob");
+            close=document.getElementById("close");
+            function displayMenu(){
+                burger.style.display="none";
+                close.style.display="flex";
+                navlinks.style.display="flex";
+            }
+            function closelink(){
+                navlinks.style.display="none"
+                burger.style.display="flex";
+            }
+        </script>
+    </header>
+    <main id="home">
+        <h1>Trusted Distribution Partner Since 2005 </h1>
+        <br><br> <button><a href="#products"> Explore Products </a> </button>
+    </main>
+    <section id="about">
+        <h1> <cite> About</cite> US</h1>
+        <aside>
+            <div>
+                <ul>
+                    <h1>✔ Trusted Brands </h1>
+                </ul>
+                <ul>
+                    <h1>✔ Quality Products</h1>
+                </ul>
+                <ul>
+                    <h1>✔ Fast Delivery</h1>
+                </ul>
+                <ul>
+                    <h1>✔ Bulk Orders Available</h1>
+                </ul>
+            </div>
+            <article>
+                <div>
+                    <img src="./about img.jpeg" alt="">
+                </div>
+                <ol>
+                    <p>“Delivering reliability, every mile.” <br>
+                        <br>“Your trusted partner in distribution.” <br>
+                        <br>“On time, every time.” <br>
+                        <br>“Logistics made simple, service made strong.”<br>
+                        <br>“Connecting businesses, powering growth.”
+                    </p>
+                </ol>
+            </article>
+        </aside>
+    </section>
+    <section id="products">
+        <aside>
+            <h1><cite>Our </cite>Products</h1>
+            <div>
+                <button><a href="./ele.html"> Eectricles </a></button>
+                <button><a href="./hard.html"> Hardwares </a></button>
+            </div>
+            <article>
+                <ul>
+                    <img src="pvc pipes.jpeg" alt="">
+                    <h3>PVC Pipe</h3>
+                    <button>View</button>
+                </ul>
+                <ul>
+                    <img src="plumbling.jpeg" alt="">
+                    <h3>Plumbing</h3>
+                    <button>View</button>
+                </ul>
+                <ul>
+                    <img src="electric flexible pipes.jpeg" alt="">
+                    <h3>Eectric Flexible Pipe</h3>
+                    <button>View</button>
+                </ul>
+                <ul>
+                    <img src="tools (1).jpeg" alt="">
+                    <h3> Tools</h3>
+                    <button>View</button>
+                </ul>
+            </article>
+        </aside>
+    </section>
+    <section id="services">
+        <h1><cite>Our</cite> Services</h1>
+        <br>
+        <article>
+            <ul>
+                <h3> ✔ Locally Trusted</h3>
+                <p>Serving the Hassan community for over 15+ years.</p>
+            </ul>
+            <ul>
+                <h3> ✔ Quality Guaranteed</h3>
+                <p>Committed to international standards and high-grade materials</p>
+            </ul>
+            <ul>
+                <h3> ✔ Customer Focused</h3>
+                <p>Tailored solutions designed to meet your specific business requirements.</p>
+            </ul>
+        </article>
+        <div>
+            <aside>
+                <ul>
+                    <h3>📍 <br> Channarayapattana </h3>
+                    <p>Primary Hub & Headquarters </p>
+                </ul>
+                <ul>
+                    <h3>📍 <br> Hassan City </h3>
+                    <p>Secondary Distribution Point </p>
+                </ul>
+                <ul>
+                    <h3>📍 <br> Holenarasipura </h3>
+                    <p>Sub-District Network </p>
+                </ul>
+            </aside>
+            <ol>
+                <h1>Hassan District</h1>
+                <p>Full Coverage</p>
+                <article>
+                    <p>Arsikere <br> Sakleshpur <br> Alur</p>
+                    <p>Belur <br> Arkalgud </p>
+                </article>
+            </ol>
+        </div>
+    </section>
+    <section id="partners">
+        <p><cite>Our</cite> Portfolio</p>
+        <h1>Authorised Distribution Partners</h1>
+        <div>
+            <li>
+                <img src="https://deepuenterprises.com/deepulogo.png" alt="">
+                <h1>Consumer Goods</h1>
+            </li>
+            <li>
+                <img src="https://deepuenterprises.com/deepulogo.png" alt="">
+                <h1>Industrial Supplies</h1>
+            </li>
+            <li>
+                <img src="https://deepuenterprises.com/deepulogo.png" alt="">
+                <h1>Agro Products</h1>
+            </li>
+            <li>
+                <img src="https://deepuenterprises.com/deepulogo.png" alt="">
+                <h1>Logistics Partners</h1>
+            </li>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h1> "What our Clients Say"</h1>
+        <br><br>
+        <div>
+            <h1>"Excellent Service and Timely deliveries .Highly recommended Deepu Distributors for all your supply
+                needs!"</h1>
+            <br>
+            <h3> --Ravi Kumar, Retailer </h3>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <article>
+                <h3> <cite> Get In </cite> Touch </h3>
+                <h1> Let's Build Together </h1>
+                <p> Deepu Distributor & Enterprises
+                    D Kalenahalli Gate, Channarayapattana,
+                    Hassan District, Karnataka.</p> <br>
+                <h4> Email: </h4>
+                <p> contact@deepuenterprises.com </p>
+            </article>
+            <aside>
+                <input type="text" placeholder="Full Name:" required>
+                <input type="text" placeholder="Business Email: " required>
+                <textarea name="" id="" placeholder="How can we partner?"></textarea>
+                <button>Send Enquiry </button>
+            </aside>
+        </div>
+    </section>
+    <section id="quote">
+        <article>
+            <input type="text" id="fName" placeholder="Full Name:" required >
+            <input type="text" id="Pno"  placeholder="Phone Number:" required >
+            <input type="text" id="email" placeholder="Business Email: " required >
+            <select id="i1">
+                <Option> Request Quotation </Option>
+                <Option> PVC Pipe </Option>
+                <Option> Plumbing </Option>
+                <Option> Ceramics </Option>
+                <Option> Lighting  Products </Option>
+                <Option> Modular Switch </Option>
+                <Option> Switch Board </Option>
+                <Option> Electrical Wire </Option>
+                <Option> Power Cable </Option>
+                <Option> Distribution Board </Option>
+                <Option> Stablizer </Option>
+                <Option> Pipes </Option>
+                <Option> Nuts and Bolts </Option>
+            </select>
+            <button onclick="quoteform()">Submit</button>
+        </article>    
+    <script> 
+        function quoteform(){
+              fN.innerHTML=document.getElementById("fName").value;
+              Pn.innerHTML=document.getElementById("Pno").value;
+              em.innerHTML=document.getElementById("email").value;
+              item1.innerHTML=document.getElementById("i1").value;
+            //   document.write('Customer Name :'+fN +'<br>');
+            //   document.write('Customer Phone Number :' +Pn+'<br>');
+            //   document.write('Customer Email Address :'+em+'<br>');
+            //   document.write('Request Quotation Item :' +item1);
+              console.log('Customer Name :'+fN.innerHTML+'<br>');
+              console.log('Customer Phone Number :' +Pn.innerHTML+'<br>');
+              console.log('Customer Email Address :'+em.innerHTML +'<br>');
+              console.log('Request Quotation Item :' +item1.innerHTML);
+        }
+    </script>
+    </section>
+    <footer>
+         <address>© 2026 <a href="./index.html"> Deepu Distributor & Enterprises</a>. All Rights Reserved. <br>
+          Atelier by <a href="https://sharatechnovate.com/"> ShaRa Technovate </a> </address>
+    </footer>
+</body>
+</html>
