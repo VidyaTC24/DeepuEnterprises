@@ -243,18 +243,19 @@
         </article>    
     <script> 
         function quoteform(){
-              fN=document.getElementById("fName").value;
-              Pn=document.getElementById("Pno").value;
-              em=document.getElementById("email").value;
-              item1=document.getElementById("i1").value;
-              document.write('Customer Name :'+fN +'<br>');
-              document.write('Customer Phone Number :' +Pn+'<br>');
-              document.write('Customer Email Address :'+em+'<br>');
-              document.write('Request Quotation Item :' +item1);
-            //   console.log('Customer Name :'+fN.innerHTML+'<br>');
-            //   console.log('Customer Phone Number :' +Pn.innerHTML+'<br>');
-            //   console.log('Customer Email Address :'+em.innerHTML +'<br>');
-            //   console.log('Request Quotation Item :' +item1.innerHTML);
+              fN=document.getElementById("fName").innerHTML;
+              Pn=document.getElementById("Pno").innerHTML;
+              em=document.getElementById("email").innerHTML;
+              item1=document.getElementById("i1").innerHTML;
+              window.alert("Successfuly Done...");
+            //   document.write('Customer Name :'+fN +'<br>');
+            //   document.write('Customer Phone Number :' +Pn+'<br>');
+            //   document.write('Customer Email Address :'+em+'<br>');
+            //   document.write('Request Quotation Item :' +item1);
+              console.log("Customer Name :"+fN + "<br>");
+              console.log('Customer Phone Number :' +Pn+ '<br>');
+              console.log('Customer Email Address :'+em +'<br>');
+              console.log('Request Quotation Item :' +item1);
         }
     </script>
     </section>
